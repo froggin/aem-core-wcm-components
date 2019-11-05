@@ -31,7 +31,7 @@ import com.adobe.cq.wcm.core.components.models.form.ContainerHS2;
 @Model(
     adaptables = {Resource.class, SlingHttpServletRequest.class},
     adapters = {Container.class, ContainerHS2.class},
-    resourceType = "hs2/components/content/form/container"
+    resourceType = "core/wcm/components/form/containerHS2"
 )
 public class ContainerHS2Impl implements ContainerHS2 {
     @Self
