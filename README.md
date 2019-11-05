@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/adobe/aem-core-wcm-components/tree/development.svg?style=svg)](https://circleci.com/gh/adobe/aem-core-wcm-components/tree/development)
 [![Code Coverage](https://codecov.io/gh/adobe/aem-core-wcm-components/branch/development/graph/badge.svg)](https://codecov.io/gh/adobe/aem-core-wcm-components)
 
-**The Sandbox represents a space where work-in-progress versions of the Core Components are developed. They provide _beta features_ and *should not be used in production*. When the components become stable, they will be promoted to new production-ready releases and moved out of sandbox.**
+**The Sandbox represents a space where work-in-progress versions of the Core Components are developed. They provide _beta features_ and *should not be used in production*. When the components become stable, they will be promoted to new production-ready releases and moved out of the sandbox.**
 
 ## Documentation
 
@@ -18,7 +18,7 @@ Contributions are welcome! Read the [Contributing Guide](CONTRIBUTING.md) for mo
 
 ## Mailing List
 
-For discussions and Q&A you can use our public mailing list hosted on [googlegroups.com](https://groups.google.com/forum/#!forum/aem-core-components-dev). 
+For discussions and Q&A, you can use our public mailing list hosted on [googlegroups.com](https://groups.google.com/forum/#!forum/aem-core-components-dev). 
 You can also subscribe via Email [aem-core-components-dev+subscribe@googlegroups.com](mailto:aem-core-components-dev+subscribe@googlegroups.com).
 
 ## Available Components
@@ -37,31 +37,32 @@ You can also subscribe via Email [aem-core-components-dev+subscribe@googlegroups
 7. [Title](content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)
 8. [Image](content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)
 9. [Download](content/src/content/jcr_root/apps/core/wcm/components/download/v1/download)
-10. [Experience Fragment](content/src/content/jcr_root/apps/core/wcm/components/experiencefragment/v1/experiencefragment)
-11. [Teaser](content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser)
-12. [Button](content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)
-13. [List](content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)
-14. [Content Fragment](content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)
-15. [Content Fragment List](content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist)
-16. [Separator](content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)
-17. [Sharing](content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing)
+10. [Embed](content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)
+11. [Experience Fragment](content/src/content/jcr_root/apps/core/wcm/components/experiencefragment/v1/experiencefragment)
+12. [Teaser](content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser)
+13. [Button](content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)
+14. [List](content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)
+15. [Content Fragment](content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment)
+16. [Content Fragment List](content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist)
+17. [Separator](content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)
+18. [Sharing](content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing)
 
 ### Container components
 
-18. [Container](content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)
-19. [Carousel](content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)
-20. [Accordion](content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)
-21. [Tabs](content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)
+19. [Container](content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)
+20. [Carousel](content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)
+21. [Accordion](content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)
+22. [Tabs](content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)
 
 ### Form components
 
-22. [Form container](content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container)
-23. [Form text field](content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text)
-24. [Form options field](content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options)
-25. [Form hidden field](content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden)
-26. [Form button](content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button)
+23. [Form container](content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container)
+24. [Form text field](content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text)
+25. [Form options field](content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options)
+26. [Form hidden field](content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden)
+27. [Form button](content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button)
 
-Visit the [roadmap wiki page](https://github.com/adobe/aem-core-wcm-components/wiki) for main upcoming components and features.
+Visit the [roadmap wiki page](https://github.com/adobe/aem-core-wcm-components/wiki) for the main upcoming components and features.
 
 ## Component Versioning
 
@@ -73,7 +74,7 @@ The latest version of the Core Components, require the below system requirements
 
 Core Components | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java
 ----------------|---------|---------|---------|------
-[2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11
+[2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11
 
 For a list of requirements for previous versions, see [Historical System Requirements](VERSIONS.md).
 
@@ -133,7 +134,7 @@ To include the core components package into your own project's maven build using
      <groupId>com.adobe.cq</groupId>
      <artifactId>core.wcm.components.all</artifactId>
      <type>zip</type>
-     <version>2.6.0</version>
+     <version>2.7.0</version>
  </dependency>
  ```
 
@@ -148,7 +149,7 @@ To include the core components package into your own project's maven build using
 
  inside the configuration of the `content-package-maven-plugin`.
 
- Also, make sure that if you have a sub module like ui.apps to add the core components as a dependency to ui.apps/pom.xml as well.
+ Also, make sure that if you have a submodule like ui.apps to add the core components as a dependency to ui.apps/pom.xml as well.
 
  ### For Projects Using Maven Archetype 18 and Above
 
@@ -158,7 +159,7 @@ To include the core components package into your own project using AEM Archetype
      <groupId>com.adobe.cq</groupId>
      <artifactId>core.wcm.components.all</artifactId>
      <type>zip</type>
-     <version>2.6.0</version>
+     <version>2.7.0</version>
  </dependency>
  ```
 
@@ -173,7 +174,7 @@ Then add it as a subpackage
 
 inside the configuration of the `filevault-package-maven-plugin`.
 
- For more information how to setup the Adobe Maven Repository (`repo.adobe.com`) for your maven build, please have a look at the
+ For more information on how to setup the Adobe Maven Repository (`repo.adobe.com`) for your maven build, please have a look at the
  related [Knowledge Base article](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html)
 
  ### Running the UI tests
@@ -186,4 +187,4 @@ inside the configuration of the `filevault-package-maven-plugin`.
 http://localhost:4502/libs/granite/testing/hobbes.html?runId=1&autoRun=true&optin=disabled&filter=aem.core-components.testsuite.sandbox&run.options={"withMetadata":{"ignoreOn63":{"value":true,"type":"exclude"}}}
 ```
 
-This will make sure that tests which would normally fail on AEM 6.3 due to platform changes are not executed.
+This will make sure that tests that would normally fail on AEM 6.3 due to platform changes are not executed.

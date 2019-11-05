@@ -141,6 +141,7 @@ public class ListImpl implements List {
     }
 
     @Override
+    @Deprecated
     public Collection<Page> getItems() {
         if (listItems == null) {
             Source listType = getListType();
@@ -308,6 +309,9 @@ public class ListImpl implements List {
 
     private Page getRootPage(String fieldName) {
         String parentPath = properties.get(fieldName, currentPage.getPath());
+        if (StringUtils.isBlank(parentPath)) {
+            parentPath = currentPage.getPath();
+        }
         return pageManager.getContainingPage(resourceResolver.getResource(parentPath));
     }
 

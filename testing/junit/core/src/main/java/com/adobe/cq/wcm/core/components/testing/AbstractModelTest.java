@@ -31,9 +31,11 @@ import org.reflections.scanners.SubTypesScanner;
 
 import static org.junit.Assert.fail;
 
+
 public class AbstractModelTest {
 
-    public void testDefaultBehaviour(String[] packages) throws Exception {
+    @SuppressWarnings("squid:S1181")
+    public void testDefaultBehaviour(String[] packages) throws IllegalAccessException {
         List<Class> models = new ArrayList<>();
         for (String p : packages) {
             models.addAll(getClasses(p));
@@ -88,7 +90,11 @@ public class AbstractModelTest {
                     }
                     Throwable t = null;
                     try {
-                        m.invoke(instance);
+                        if (m.getParameterCount() > 0) {
+                            m.invoke(instance, new Object[m.getParameterCount()]);
+                        } else {
+                            m.invoke(instance);
+                        }
                     } catch (InvocationTargetException e) {
                         t = e.getCause();
                     }

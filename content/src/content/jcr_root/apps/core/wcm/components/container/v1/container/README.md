@@ -57,6 +57,11 @@ The following properties are written to JCR for this Container component and are
 BLOCK cmp-container
 ```
 
+### Enabling Container Editing Functionality
+The following property is required in the proxy component to enable full editing functionality for the Container:
+
+1. `./cq:isContainer` - set to `{Boolean}true`, marks the Container as a container component
+
 ## Information
 * **Vendor**: Adobe
 * **Version**: v1
@@ -67,4 +72,4 @@ BLOCK cmp-container
 * **Author**: [Ankur Ahlawat](https://github.com/aahlawat)
 * **Co-authors**: [Vlad Bailescu](https://github.com/bailescu), Shailesh Bassi
 
-_If you were involved in the authoring of this component and are not credited above, please reach out to us on [GitHub](https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components)._
+_If you were involved in the authoring of this component and are not credited above, please reach out to us on [GitHub](https://github.com/adobe/aem-core-wcm-components)._

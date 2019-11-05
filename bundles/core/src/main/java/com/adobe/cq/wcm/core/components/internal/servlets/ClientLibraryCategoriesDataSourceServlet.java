@@ -56,7 +56,7 @@ public class ClientLibraryCategoriesDataSourceServlet extends SlingSafeMethodsSe
     public final static String PN_LIBRARY_TYPE = "type";
 
     @Reference
-    private HtmlLibraryManager htmlLibraryManager;
+    private transient HtmlLibraryManager htmlLibraryManager;
 
     @Override
     protected void doGet(@NotNull SlingHttpServletRequest request, @NotNull SlingHttpServletResponse response)
@@ -112,12 +112,12 @@ public class ClientLibraryCategoriesDataSourceServlet extends SlingSafeMethodsSe
         }
 
         @Override
-        protected String getText() {
+        public String getText() {
             return category;
         }
 
         @Override
-        protected String getValue() {
+        public String getValue() {
             return category;
         }
     }
